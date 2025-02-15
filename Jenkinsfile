@@ -19,8 +19,12 @@ pipeline {
 
 
     stage ('Push Image'){
+      environment{
+        DOCKER_HUB = credentials{'dockerhub-credentials'}
+      }
       steps{
-        echo "docker push cras1990/selenium"
+        bat 'docker login -u %DOCKER_HUB_USR% -p %DOCKER_HUB_PSW%'
+        bat "docker push cras1990/selenium"
 
       }      
 
