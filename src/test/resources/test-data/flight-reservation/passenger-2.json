@@ -1,0 +1,11 @@
+{
+  "firstName": "michael",
+  "lastName" : "kahl",
+  "email": "mj@kahl.com",
+  "password": "mk",
+  "street": "123 main street",
+  "city": "new york",
+  "zip": "50001",
+  "passengersCount": "1",
+  "expectedPrice": "$584 USD"
+}

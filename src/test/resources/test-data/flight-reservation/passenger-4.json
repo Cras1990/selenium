@@ -1,0 +1,11 @@
+{
+  "firstName": "samir",
+  "lastName" : "revelo",
+  "email": "sr@prog.com",
+  "password": "sr",
+  "street": "123 main boulevard",
+  "city": "texas",
+  "zip": "50001",
+  "passengersCount": "3",
+  "expectedPrice": "$1753 USD"
+}
