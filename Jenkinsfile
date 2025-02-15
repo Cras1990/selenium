@@ -20,7 +20,7 @@ pipeline {
 
     stage ('Push Image'){
       environment{
-        DOCKER_HUB = credentials{"dockerhub-credentials"}
+        DOCKER_HUB = credentials('dockerhub-credentials')
       }
       steps{
         bat 'docker login -u %DOCKER_HUB_USR% -p %DOCKER_HUB_PSW%'
