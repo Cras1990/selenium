@@ -30,6 +30,12 @@ pipeline {
 
     }
 
+    post{
+        always{
+            bat "docker logout"
+        }
+    }
+
   }
 
 }
